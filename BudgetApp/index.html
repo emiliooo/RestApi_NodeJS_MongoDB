@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>budget app</title>
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="column-wraper">
+      <div class="input-budget">
+        <div class="budget-form center-modal">
+          <span> Enter your budget</span>
+          <input type="number" id="budget" name="budget" class="form-control">
+          <button onclick="mybudget()" class="btn btn-success">add</button>
+        </div>
+      </div>
+      <div class="input-expense">
+        <div class="input-expense">
+          <span>Enter your expense </span>
+          <input type="number" id="expense" name="expense" class="form-control">
+          <span> Enter your expense title </span>
+          <input type="text" id="expenseAmount" name="expenseAmount" class="form-control">
+          <button onclick="myexpense()" class="btn btn-success">submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="score-board">
+      <div class="budget">
+        <div class="title">Budget</div>
+        <div id="budget-cash">
+        </div>
+      </div>
+      <div class="balance">
+        <div class="title">Saldo</div>
+        <div id="balance-cash">
+        </div>
+      </div>
+      <div class=" expenses">
+        <div class="title">Expenses</div>
+        <div class="card " id="expensesCash">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="file.js"></script>
+</body>
+
+</html>

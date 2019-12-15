@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: #83838e;
+    color: wheat;
+}
+
+.container{
+    height: 617px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input-expense {
+    border: 1px solid;
+    height: 300px;
+}
+
+.input-budget {
+    border: 1px solid;
+}
+
+.score-board {
+    flex:1
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 26px;
+}
+
+.score-board {
+    display: flex;
+}
+
+.score-board > div {
+    width: 116px;
+    margin: 40px auto;
+    font-size: 32px;
+}
+
+.budget-form,
+.input-expense {
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    font-size: 20px;
+}
+
+.expenses {
+    width: 420px !important;
+}
+
+#expensesCash {
+    display: flex;
+    background: #796e6e00;
+    color: black;
+    margin: 32px;
+    border:10px solid white;
+}
+
+#cash {
+    margin-right: 22px;
+}
+
+li{
+    border: 3px solid #eaeaf0;
+}
+
+li> div {
+    color:black;
+}
+
+.card{
+    background: #796e6e00;
+}
+
+.title {
+    background: #5d5d6af5;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 1px 4px 6px;
+}
